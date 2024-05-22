@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mibs-записаться</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-line">
+                <div class="header-logo">
+                    <a href="Главная.html"><img src="../img/MIBS (1).svg" alt="" ></a>
+                </div>
+    
+                <div class="nav">
+                    <a class="nav-item" href="Услуги.html">Услуги</a>
+                    <a class="nav-item" href="Врачи.html">Врачи</a>
+                    <a class="nav-item" href="Контакты.html">Контакты</a>
+                </div>
+                <a  href="Записаться.html"><button class="bat">Записаться</button></a>     
+            </div>
+        </div>
+        </header>
+    <main class="container">
+        <div class="h2y">
+            <h2 class="h3-y">Записаться на прием</h2>
+        </div>
+        <div class="sm">
+        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="850f0709-ba85-4baa-9c2b-a71d21c10fd5">
+            
+            <label class="fop">Ваше имя</label><br><br>
+            <input class="tem" type="text" name="name" required><br><br>
+    
+            <label class="fop">Телефон</label><br><br>
+            <input class="tem" type="text" name="number" required><br><br>
+    
+            <label class="fop">Коментарий или вопрос </label><br><br>
+            <textarea class="te" type="text" required></textarea><br><br>
+    
+            <button class="bat">Записаться</button>
+        </form>
+    </div>
+
+   
+    </main>
+    <footer>
+        <div class="footer">  
+            <img src="../img/MIBSs.svg" class="lo">
+            <div class="cont">
+                <p>+7 3537 47-99-77</p>
+                <p>mibsld2024@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
